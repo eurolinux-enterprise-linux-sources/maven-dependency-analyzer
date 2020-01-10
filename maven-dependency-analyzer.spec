@@ -1,6 +1,6 @@
 Name:           maven-dependency-analyzer
 Version:        1.3
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Maven dependency analyzer
 License:        ASL 2.0
 URL:            http://maven.apache.org/shared/maven-dependency-analyzer/
@@ -52,6 +52,9 @@ Summary:        API documentation for %{name}
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-9
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.3-8
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
